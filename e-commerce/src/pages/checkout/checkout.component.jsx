@@ -34,7 +34,7 @@ const CheckoutPage = ({ cartItems, total }) => (
       <CheckoutItem key={cartItem.id} cartItem={cartItem} />
     ))}
     {cartItems.length === 0 ? (
-      <span></span>
+      <span className="total2">Please add your items to cart!</span>
     ) : (
       <div className="total">
         <span>Total: €{total}</span>
