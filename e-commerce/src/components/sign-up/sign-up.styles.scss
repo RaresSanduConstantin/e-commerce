@@ -7,3 +7,12 @@
     margin: 10px 0;
   }
 }
+@media (max-width: 768px) {
+  .sign-up {
+    width: 75vw;
+    .button {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}

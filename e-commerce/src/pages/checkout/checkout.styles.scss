@@ -44,3 +44,18 @@
     color: red;
   }
 }
+@media (max-width: 768px) {
+  .checkout-page {
+    width: 95vw;
+    margin-left: -40px;
+
+    .checkout-header {
+      width: 95%;
+      padding: 0;
+
+      .header-block {
+        width: 10%;
+      }
+    }
+  }
+}

@@ -12,3 +12,13 @@
     justify-content: space-between;
   }
 }
+
+@media (max-width: 768px) {
+  .sign-in {
+    width: 75vw;
+    .buttons {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}

@@ -27,7 +27,7 @@ const ContactPage = () => (
             required
           />
           <label className="label" for="email">
-            E-mail!
+            E-mail
           </label>
         </div>
         <div className="form-field col x-100">
