@@ -44,7 +44,7 @@
 
   .title {
     text-align: center;
-    font-family: Raleway, sans-serif;
+    font-family: "Open Sans Condensed", sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
     font-size: 36px;
@@ -123,6 +123,34 @@
     text-decoration: none;
     &:hover {
       text-decoration: underline;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .row {
+    @include clearfix;
+    margin: -20px 0;
+    .col {
+      padding: 0 20px;
+      float: left;
+      box-sizing: border-box;
+      &.x-50 {
+        width: 100%;
+      }
+      &.x-100 {
+        width: 100%;
+      }
+    }
+  }
+  .contact-page {
+    margin-top: 350px;
+  }
+
+  .contact-form {
+    display: grid;
+    grid-template-columns: 1fr;
+    .form-field {
     }
   }
 }

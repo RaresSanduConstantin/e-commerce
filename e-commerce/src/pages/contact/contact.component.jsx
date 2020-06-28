@@ -11,7 +11,7 @@ const ContactPage = () => (
         <div className="form-field col x-50">
           <input
             id="name"
-            className="input-text js-input"
+            className="input-text js-input not-empty"
             type="text"
             required
           />
@@ -22,7 +22,7 @@ const ContactPage = () => (
         <div className="form-field col x-50">
           <input
             id="email"
-            className="input-text js-input"
+            className="input-text js-input not-empty"
             type="email"
             required
           />
@@ -33,7 +33,7 @@ const ContactPage = () => (
         <div className="form-field col x-100">
           <input
             id="message"
-            className="input-text js-input"
+            className="input-text js-input not-empty"
             type="text"
             required
           />
