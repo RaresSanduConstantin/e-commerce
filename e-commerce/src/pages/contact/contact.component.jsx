@@ -6,7 +6,7 @@ const ContactPage = () => (
   <div className="contact-page">
     <Route exact path={`/contact`} />
     <section className="get-in-touch">
-      <h1 className="title">Get in Touch</h1>
+      <h1 className="title">Get in Touch!</h1>
       <form className="contact-form row">
         <div className="form-field col x-50">
           <input
