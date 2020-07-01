@@ -16,7 +16,7 @@ const ContactPage = () => (
             required
           />
           <label className="label" for="name">
-            Name
+            Name!
           </label>
         </div>
         <div className="form-field col x-50">
