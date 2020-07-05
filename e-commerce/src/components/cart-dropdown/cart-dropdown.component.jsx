@@ -20,7 +20,7 @@ const CartDropdown = ({ cartItems, history, dispatch }) => (
       ) : (
         <span className="empty-message">
           <EmptyCart className="empty-cart" />
-          Your Cart is Empty
+          Your Cart is Empty!
         </span>
       )}
     </div>
