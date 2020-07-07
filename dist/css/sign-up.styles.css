@@ -1,0 +1,30 @@
+.sign-up {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 380px;
+}
+
+.sign-up .title {
+  margin: 10px 0;
+}
+
+@media (max-width: 768px) {
+  .sign-up {
+    width: 75vw;
+  }
+  .sign-up .button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+/*# sourceMappingURL=sign-up.styles.css.map */

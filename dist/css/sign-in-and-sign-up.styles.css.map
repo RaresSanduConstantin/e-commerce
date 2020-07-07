@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,oBAAoB,CAAC;EACnB,KAAK,EAAE,KAAK;EACZ,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;EAC9B,MAAM,EAAE,SAAS;CAClB;;AAED,MAAM,EAAE,SAAS,EAAE,KAAK;EACtB,AAAA,oBAAoB,CAAC;IACnB,OAAO,EAAE,IAAI;IACb,qBAAqB,EAAE,GAAG;GAC3B",
+    "sources": [
+        "../../e-commerce/src/pages/sign-in-and-sign-up/sign-in-and-sign-up.styles.scss"
+    ],
+    "names": [],
+    "file": "sign-in-and-sign-up.styles.css"
+}
